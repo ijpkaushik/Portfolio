@@ -11,10 +11,8 @@ import ThemeContextProvider from "./contexts/ThemeContext";
 // import "slick-carousel/slick/slick-theme.css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <ThemeContextProvider>
-      <App />
-    </ThemeContextProvider>
-  </React.StrictMode>,
+  <ThemeContextProvider>
+    <App />
+  </ThemeContextProvider>,
   document.getElementById("root")
 );

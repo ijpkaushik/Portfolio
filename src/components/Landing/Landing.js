@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Button } from "@material-ui/core";
-import { NavHashLink as NavLink } from "react-router-hash-link";
+import { Link } from "react-scroll";
 import { makeStyles } from "@material-ui/core/styles";
 
 import "./Landing.css";
@@ -94,9 +94,11 @@ function Landing() {
                   <Button className={classes.resumeBtn}>Download CV</Button>
                 </a>
               )}
-              <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>
+              <Link to="contacts" smooth={true} duration={1000}>
+                {/* <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}> */}
                 <Button className={classes.contactBtn}>Contact</Button>
-              </NavLink>
+                {/* </NavLink> */}
+              </Link>
             </div>
           </div>
         </div>
