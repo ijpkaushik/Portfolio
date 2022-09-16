@@ -6,8 +6,19 @@ import five from "../assets/svg/projects/five.svg";
 import six from "../assets/svg/projects/six.svg";
 import seven from "../assets/svg/projects/seven.svg";
 import eight from "../assets/svg/projects/eight.svg";
+import nine from "../assets/svg/projects/nine.svg";
 
 export const projectsData = [
+  {
+    id: 9,
+    projectName: "Blog App",
+    projectDesc:
+      "A full stack mern blog application where you can post blogs in various categories through your account.",
+    tags: ["React", "CSS", "Nodejs", "MongoDB"],
+    code: "https://github.com/ijpkaushik/BlogApp",
+    demo: "https://ijpkaushik-blog-app.netlify.app/",
+    image: nine,
+  },
   {
     id: 1,
     projectName: "Fruit Cart",
