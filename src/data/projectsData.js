@@ -7,8 +7,21 @@ import six from "../assets/svg/projects/six.svg";
 import seven from "../assets/svg/projects/seven.svg";
 import eight from "../assets/svg/projects/eight.svg";
 import nine from "../assets/svg/projects/nine.svg";
+import ten from "../assets/svg/projects/ten.svg";
+import eleven from "../assets/svg/projects/eleven.svg";
+import twelve from "../assets/svg/projects/twelve.svg";
 
 export const projectsData = [
+  {
+    id: 10,
+    projectName: "MyTube App",
+    projectDesc:
+      "A MERN Stack youtube clone app.",
+    tags: ["React", "Styled Components", "Nodejs", "MongoDB","Redux"],
+    code: "https://github.com/ijpkaushik/MyTube",
+    demo: "https://ijpkaushik-mytube.netlify.app/",
+    image: ten,
+  },
   {
     id: 9,
     projectName: "Blog App",
@@ -18,6 +31,26 @@ export const projectsData = [
     code: "https://github.com/ijpkaushik/BlogApp",
     demo: "https://ijpkaushik-blog-app.netlify.app/",
     image: nine,
+  },
+  {
+    id: 11,
+    projectName: "Gericht",
+    projectDesc:
+      "A frontend UI for Restaurant App using react and css.",
+    tags: ["React", "CSS", "Nodejs", "Figma"],
+    code: "https://github.com/ijpkaushik/RestaurantApp",
+    demo: "https://ijpkaushik-restaurant-app.netlify.app/",
+    image: eleven,
+  },
+  {
+    id: 12,
+    projectName: "Gericht",
+    projectDesc:
+      "A frontend UI for Restaurant App using react and css.",
+    tags: ["React", "CSS", "Nodejs", "Figma"],
+    code: "https://github.com/ijpkaushik/photo-gallery-app",
+    demo: "https://ijpkaushik-photo-gallery-app.netlify.app/",
+    image: twelve,
   },
   {
     id: 1,
