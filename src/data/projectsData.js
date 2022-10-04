@@ -44,9 +44,9 @@ export const projectsData = [
   },
   {
     id: 12,
-    projectName: "Gericht",
+    projectName: "Photo Gallery App",
     projectDesc:
-      "A frontend UI for Restaurant App using react and css.",
+      "A frontend UI for Photo Gallery App using react and css.",
     tags: ["React", "CSS", "Nodejs", "Figma"],
     code: "https://github.com/ijpkaushik/photo-gallery-app",
     demo: "https://ijpkaushik-photo-gallery-app.netlify.app/",
