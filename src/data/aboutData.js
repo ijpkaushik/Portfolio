@@ -1,5 +1,5 @@
 export const aboutData = {
-  title: "Who I am",
+  title: "Who am I?",
   description1:
     "My name's Jai Prakash Kaushik. I am a final year Computer Science Engineering student🎓 from Maharaja Surajmal Institute of Technology Delhi, India.",
   description2:

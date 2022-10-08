@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { NavHashLink as NavLink } from "react-router-hash-link";
 import { Fade } from "react-awesome-reveal";
 import { IoMenuSharp, IoHomeSharp } from "react-icons/io5";
+import { BsFillBriefcaseFill } from "react-icons/bs"
 import { GiGears, GiAchievement } from "react-icons/gi";
 import { MdPhone } from "react-icons/md";
 import { FaUser, FaProjectDiagram } from "react-icons/fa";
@@ -220,23 +221,23 @@ function Navbar() {
               </NavLink>
             </Fade>
 
-            {/* <Fade left delay={200}>
-                            <NavLink
-                                to='/#experience'
-                                smooth={true}
-                                spy='true'
-                                duration={2000}
-                            >
-                                <div className={classes.drawerItem}>
-                                    <BsFillBriefcaseFill
-                                        className={classes.drawerIcon}
-                                    />
-                                    <span className={classes.drawerLinks}>
-                                        Experience
-                                    </span>
-                                </div>
-                            </NavLink>
-                        </Fade> */}
+            <Fade left delay={200}>
+              <NavLink
+                to='/#experience'
+                smooth={true}
+                spy='true'
+                duration={2000}
+              >
+                <div className={classes.drawerItem}>
+                  <BsFillBriefcaseFill
+                    className={classes.drawerIcon}
+                  />
+                  <span className={classes.drawerLinks}>
+                    Experience
+                  </span>
+                </div>
+              </NavLink>
+            </Fade>
 
             <Fade left delay={200}>
               <NavLink to="/#projects" smooth={true} spy="true" duration={2000}>

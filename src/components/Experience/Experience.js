@@ -29,6 +29,7 @@ function Experience() {
               company={exp.company}
               startYear={exp.startYear}
               endYear={exp.endYear}
+              certificate={exp.certificate}
             />
           ))}
         </div>

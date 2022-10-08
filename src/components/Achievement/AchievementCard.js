@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Fade } from "react-awesome-reveal";
+// import { Fade } from "react-awesome-reveal";
 
 import { ThemeContext } from "../../contexts/ThemeContext";
 
@@ -22,7 +22,7 @@ function AchievementCard({ id, title, details, date, company, link, image }) {
 
   const classes = useStyles();
   return (
-    <Fade bottom delay={100}>
+    // <Fade bottom delay={100}>
       <div key={id} className={`achievement-card ${classes.achievementCard}`}>
         <a href={link} target="_blank" rel="noreferrer">
           <div className="achievecard-content">
@@ -46,7 +46,7 @@ function AchievementCard({ id, title, details, date, company, link, image }) {
           <img src={image} alt="" />
         </div>
       </div>
-    </Fade>
+    // </Fade>
   );
 }
 
